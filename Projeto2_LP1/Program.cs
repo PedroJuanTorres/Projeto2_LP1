@@ -6,7 +6,8 @@ namespace Projeto2_LP1
     {
         static void Main(string[] args)
         {
-            
+            GameMap[,] map = new GameMap [10 ,10];
+
         }
     }
 }
