@@ -8,6 +8,12 @@ namespace Projeto2_LP1
         {
             GameMap[,] map = new GameMap [10 ,10];
 
+            Controller controller = new Controller (map);
+
+            View view = new View(controller, map);
+
+            controller.Run(view, args[0], args[1], args[2]);
+
         }
     }
 }
