@@ -30,14 +30,18 @@ namespace Projeto2_LP1
         
         public void ChangeToRock()
         {
-
+            symbol = '#';
         }
 
         public void ChangeToGround()
         {
-
+            symbol = '.';
+        }
+        public char GetSymbol()
+        {
+            return symbol;
         }
 
-        
+
     }
 }

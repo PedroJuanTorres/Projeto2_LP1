@@ -23,5 +23,14 @@ namespace Projeto2_LP1
             this.controller = controller;
             this.map = map;
         }
+
+        public void Show(GameMap[,] map)
+        {
+            foreach(GameMap element in map)
+            {
+                Console.Write(""/*element.GetSymbol*/);
+            }
+            
+        }
     }
 }

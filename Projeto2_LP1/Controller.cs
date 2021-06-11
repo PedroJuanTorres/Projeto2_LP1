@@ -30,6 +30,10 @@ namespace Projeto2_LP1
 
             ComparerRockPositions(map,steps);
 
+            view.Show(map);
+
+            
+
         }
 
         /// <summary>
@@ -44,7 +48,7 @@ namespace Projeto2_LP1
                 int aux = rnd.Next(1,2);
                 if(aux == 1)
                 {
-                    
+                    element.ChangeToRock();
                 }
 
             }
