@@ -3,7 +3,7 @@ using System;
 namespace Projeto2_LP1
 {
     /// <summary>
-    /// Map os the game
+    /// Map of the game
     /// </summary>
     class GameMap
     {
@@ -27,6 +27,17 @@ namespace Projeto2_LP1
             y = y_limit;
             symbol = '.';
         }
+        
+        public void ChangeToRock()
+        {
+
+        }
+
+        public void ChangeToGround()
+        {
+
+        }
+
         
     }
 }

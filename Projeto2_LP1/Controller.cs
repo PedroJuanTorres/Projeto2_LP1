@@ -23,12 +23,38 @@ namespace Projeto2_LP1
         /// Method to run yhe project
         /// </summary>
         /// <param name="view">View class</param>
-        /// <param name="x_coordinate">Limit of x</param>
-        /// <param name="y_coordinate">Limit of y</param>
         /// <param name="steps">Steps od distance to generate a rock</param>
-        public void Run(View view, string x_coordinate, string y_coordinate, string steps)
+        public void Run(View view, string steps)
+        {
+            RandomizeField(map);
+
+            ComparerRockPositions(map,steps);
+
+        }
+
+        /// <summary>
+        /// Method to make the entire field with radom spots to rocks and ground
+        /// </summary>
+        /// <param name="map"></param>
+        public void RandomizeField(GameMap[,] map)
+        {
+            foreach(GameMap element in map)
+            {
+                Random rnd = new Random();
+                int aux = rnd.Next(1,2);
+                if(aux == 1)
+                {
+                    
+                }
+
+            }
+        }
+
+        private void ComparerRockPositions(GameMap[,] map, string steps)
         {
 
         }
+
+
     }
 }
